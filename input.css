@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #333;
+  }
+}
+
+/* Gallery Images */
+.gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    ". img1"
+    "img3 img1"
+    "img3 img2"
+    ". img2";
+}
+.img1 {
+  grid-area: img1;
+  width: 70%;
+  margin-top: auto;
+}
+.img2 {
+  grid-area: img2;
+  width: 80%;
+}
+.img3 {
+  grid-area: img3;
+}
+
+/* Mobile Hamburger Icon */
+.hamburger {
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  cursor: pointer;
+  position: relative;
+}
+.hamburger span {
+  width: 24px;
+  height: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #333;
+}
+.hamburger-middle {
+  transform: translateY(7px);
+}
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+/* Click */
+.hamburger.open {
+  transform: rotate(90deg);
+}
+.hamburger.open .hamburger-middle {
+  display: none;
+}
+.hamburger.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+.hamburger.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+
+
