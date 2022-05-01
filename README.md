@@ -36,6 +36,7 @@
 <div>
 <img src="./screen1.png" alt="screenshot">
 <img src="./screen2.png" alt="screenshot">
+<img src="./screen3.png" alt="screenshot">
 </div>
 
 ### Built With
