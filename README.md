@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://aoa97.github.io/interior-consultant-landing/">
+    <a href="https://edie-aoa97.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/TISGuSIQJHvCwy4bkETt">
+    <a href="https://devchallenges.io/solutions/zrhUvx68HVBh6s62QoY2">
       Solution
     </a>
     <span> | </span>
